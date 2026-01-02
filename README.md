@@ -1,5 +1,5 @@
 # you can see it live on:
-- for logistics app: https://ml-lab-assignment.onrender.com
+- for logistics app:  https://logistic-predictor.onrender.com
 - for decision tree app: https://ml-lab-assignment-1.onrender.com
 
 # ML Model Deployment Project
