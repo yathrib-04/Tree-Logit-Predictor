@@ -4,7 +4,7 @@
 - **Logistic Regression App**: [https://logistic-predictor.onrender.com](https://logistic-predictor.onrender.com)  
 - **Decision Tree App**: [https://decision-tree-prhd.onrender.com](https://decision-tree-prhd.onrender.com)
 -   
-# 🌸 Overview
+##🌸 Overview
 
 A machine learning web app for Iris flower classification using **Logistic Regression** and **Decision Tree** algorithms, with FastAPI backends and modern, responsive frontends.
 
@@ -36,10 +36,12 @@ pip install -r requirements.txt
 uvicorn main:app --host 127.0.0.1 --port 9050  # Logistic Regression
 uvicorn main:app --host 127.0.0.1 --port 9051  # Decision Tree
 ```
-## Usage
+### Usage
 
 Open the app in your browser
+
 Fill in the input form
+
 Click Predict to view results
 
 
