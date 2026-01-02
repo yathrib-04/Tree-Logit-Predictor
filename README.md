@@ -35,10 +35,11 @@ pip install -r requirements.txt
 
 uvicorn main:app --host 127.0.0.1 --port 9050  # Logistic Regression
 uvicorn main:app --host 127.0.0.1 --port 9051  # Decision Tree
-
-
-Usage
+```
+## Usage
 
 Open the app in your browser
 Fill in the input form
 Click Predict to view results
+
+
