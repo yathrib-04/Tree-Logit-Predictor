@@ -21,24 +21,24 @@ A machine learning web app for Iris flower classification using **Logistic Regre
 **Frontend:** HTML5, Bootstrap 5.3.2, Vanilla JS, Custom CSS  
 **ML Models:** Logistic Regression (with StandardScaler), Decision Tree (max_depth=3)  
 
-Create virtual invironment
+## Setup & Run
+
+1. **Create a virtual environment**
+```bash
 python -m venv venv
 
-Install dependencies
 cd logistic_app
-
 pip install -r requirements.txt
 
 cd ../decision_tree_app
-
 pip install -r requirements.txt
 
-Run the apps
-uvicorn main:app --host 127.0.0.1 --port 9050 # Logistic Regression
+uvicorn main:app --host 127.0.0.1 --port 9050  # Logistic Regression
+uvicorn main:app --host 127.0.0.1 --port 9051  # Decision Tree
 
-uvicorn main:app --host 127.0.0.1 --port 9051 # Decision Tree
 
 Usage
-Open the frontend URL
-Enter values in the form
-Click Predict
+
+Open the app in your browser
+Fill in the input form
+Click Predict to view results
