@@ -4,24 +4,24 @@
 - **Logistic Regression App**: [https://logistic-predictor.onrender.com](https://logistic-predictor.onrender.com)  
 - **Decision Tree App**: [https://decision-tree-prhd.onrender.com](https://decision-tree-prhd.onrender.com)
 -   
-##🌸 Overview
+## 🌸 Overview
 
 A machine learning web app for Iris flower classification using **Logistic Regression** and **Decision Tree** algorithms, with FastAPI backends and modern, responsive frontends.
 
-## ✨ Features
+###✨ Features
 
 - Logistic Regression & Decision Tree classifiers  
 - FastAPI backend with Pydantic validation  
 - Modern, responsive neon-themed UI  
 - Real-time predictions via web interface  
 
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 
 **Backend:** FastAPI, Scikit-learn, Joblib, NumPy, Pydantic  
 **Frontend:** HTML5, Bootstrap 5.3.2, Vanilla JS, Custom CSS  
 **ML Models:** Logistic Regression (with StandardScaler), Decision Tree (max_depth=3)  
 
-## Setup & Run
+### Setup & Run
 
 1. **Create a virtual environment**
 ```bash
