@@ -1,39 +1,42 @@
-# you can see it live on:
-- for logistics app:  https://logistic-predictor.onrender.com
-- for decision tree app: https://ml-lab-assignment-1.onrender.com
 
-# ML Model Deployment Project
+## 🚀 Live Demo
 
-## Overview
-This project demonstrates end-to-end ML deployment using:
-- Logistic Regression
-- Decision Tree
+- **Logistic Regression App**: [https://logistic-predictor.onrender.com](https://logistic-predictor.onrender.com)  
+- **Decision Tree App**: [https://decision-tree-prhd.onrender.com](https://decision-tree-prhd.onrender.com)
+-   
+# 🌸 Overview
 
-Both models have separate:
-- Backend (FastAPI)
-- Frontend (HTML forms)
+A machine learning web app for Iris flower classification using **Logistic Regression** and **Decision Tree** algorithms, with FastAPI backends and modern, responsive frontends.
 
-## Setup
-### Create virtual invironment
-`python -m venv venv`
+## ✨ Features
 
-### Install dependencies
-`cd logistic_app`
+- Logistic Regression & Decision Tree classifiers  
+- FastAPI backend with Pydantic validation  
+- Modern, responsive neon-themed UI  
+- Real-time predictions via web interface  
 
-`pip install -r requirements.txt`
+## 🛠 Tech Stack
 
-`cd ../decision_tree_app`
+**Backend:** FastAPI, Scikit-learn, Joblib, NumPy, Pydantic  
+**Frontend:** HTML5, Bootstrap 5.3.2, Vanilla JS, Custom CSS  
+**ML Models:** Logistic Regression (with StandardScaler), Decision Tree (max_depth=3)  
 
-`pip install -r requirements.txt`
+## Setup & Run
 
+### 1. Create a virtual environment
+```bash
+python -m venv venv
+# Logistic Regression App
+cd logistic_app
+pip install -r requirements.txt
+cd ..
 
-### Run the apps
-`uvicorn main:app --host 127.0.0.1 --port 9050 # Logistic Regression`
+# Decision Tree App
+cd decision_tree_app
+pip install -r requirements.txt
+cd ..
+# Logistic Regression (Port 9050)
+uvicorn main:app --host 127.0.0.1 --port 9050
 
-`uvicorn main:app --host 127.0.0.1 --port 9051 # Decision Tree`
-
-## Usage
-1. Open the frontend URL
-2. Enter values in the form
-3. Click Predict
-
+# Decision Tree (Port 9051)
+uvicorn main:app --host 127.0.0.1 --port 9051
